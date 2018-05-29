@@ -1,0 +1,22 @@
+{
+  "name": "webhook",
+  "description": "Webhook for nutrition agent using dialogflow and fatsecret",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "author": "David Fernandez",
+  "engines": {
+    "node": "4.2.6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.5.x",
+    "apiai": "^4.0.3",
+    "express": "^4.16.2",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.7",
+    "request": "^2.81.0"
+  }
+}
